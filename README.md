@@ -13,7 +13,11 @@ An interactive web application that leverages AI to solve hand-drawn mathematica
 
 ## 🖼️ Screenshots
 
+### Website UI
+
 ![image](https://github.com/user-attachments/assets/3c197213-12d2-4107-81b1-fc60fd539a6d)
+
+### Output Image :
 
 
 ![image](https://github.com/user-attachments/assets/c4d0db54-98d7-412f-a771-ce9a68ba912a)
@@ -114,7 +118,7 @@ npm run dev
 ## 🛣️ API Endpoints
 
 - `POST /calculate`: Process image and return solutions
-- `GET /health`: Health check endpoint
+
 
 ## 🔧 Configuration
 
@@ -126,7 +130,7 @@ CORS_ORIGINS=http://localhost:5173
 
 ### Frontend Environment Variables
 ```
-VITE_API_URL=http://localhost:8000
+VITE_API_URL=http://localhost:8900
 ```
 
 ## 🤝 Contributing
@@ -145,9 +149,6 @@ VITE_API_URL=http://localhost:8000
 - Enhanced UI/UX with better feedback
 - Support for saving and sharing equations
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 👏 Acknowledgments
 
@@ -155,6 +156,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - MathJax for beautiful mathematical rendering
 - FastAPI for efficient backend processing
 
----
 
-[Add your contact information or social links here]
