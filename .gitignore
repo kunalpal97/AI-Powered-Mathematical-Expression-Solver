@@ -1,0 +1,54 @@
+# Backend Python
+__pycache__/
+*.py[cod]
+Backend/*.pyc
+Backend/__pycache__/
+Backend/venv/
+Backend/env/
+Backend/ENV/
+Backend/.env
+Backend/.env.local
+Backend/*.log
+Backend/.coverage
+Backend/htmlcov/
+
+# Frontend
+Frontend/node_modules/
+Frontend/dist/
+Frontend/dist-ssr/
+Frontend/*.local
+Frontend/.vite/
+Frontend/.cache/
+Frontend/build/
+Frontend/public/build
+Frontend/*.env
+
+# Development folders
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# System files
+.DS_Store
+*.pem
+*.log
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
